@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #ffe500;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Sigmar One", cursive;
+  color: #cc1465;
+  font-size: 3rem
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  border: 1px solid #b2a212;
+  border-radius: 5px;
+  margin: 0 .25em 1em .25em;
+  padding: .5em;
+  max-width: 25em;
+  display: inline-block;
+  text-align: center;
+  background-color: #b2a212;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+nav li:hover {
+  background-color: #b20953;
+}
+
+h2 {
+  font-family: "Sigmar One",cursive;
+  color: #cc1465;
+  font-size: 1.875rem;
+}
+
+footer {
+  background-color: #ffe500;
+  text-align: center;
+}
