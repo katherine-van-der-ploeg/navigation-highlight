@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: Georgia, serif;
   line-height: 1.5;
+  font-size: 0.75rem;
 }
 
 *, *::before, *::after {
@@ -27,24 +28,19 @@ nav {
 }
 
 nav li {
-  border: 1px solid #b2a212;
-  border-radius: 5px;
   margin: 0 .25em 1em .25em;
-  padding: .5em;
-  max-width: 25em;
   display: inline-block;
   text-align: center;
-  background-color: #b2a212;
 }
 
 a {
+  display: inline-block;
+  padding: .5em;
+  border-radius: 5px;
   color: #fff;
   text-decoration: none;
   font-size: 1.125rem;
-}
-
-nav li:hover {
-  background-color: #b20953;
+  background-color: #b2a212;
 }
 
 h2 {
@@ -56,4 +52,13 @@ h2 {
 footer {
   background-color: #ffe500;
   text-align: center;
+}
+
+a:hover {
+  background-color: #cc1465;
+  color: #fff;
+}
+
+.current {
+  background-color: #cc1465;
 }
